@@ -1,12 +1,39 @@
+!!! danger
+    This page might not be fully up to date, I'll try keep this up to date as much as possible.  
+    I also try to not change around the Config file too much, but if that happens keep in mind:  
+    **This plugin is still under development, so deal with it ♥**
+
 ## Dependencies
 
-## Configuration
-This file might not be fully up to date, I'll try keep this up to date as much as possible.  
-I also try to not change around the Config file too much, but if that happens keep in mind:  
-**This plugin is still under development, so deal with it ♥**
+YAP (Yet Another Plugin) has a couple dependencies in order to work.  
+If one of these plugins are not present or loaded YAP won't be able to be enabled.
 
-### config.yml
-``` yaml
+#### Plugin Dependencies
+- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) ^2.10
+- [mcMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/) ^2.1
+
+#### Java Dependencies
+*Java dependensies are only important for contributors*  
+
+- [JavaCord](https://github.com/Javacord/Javacord) ^3.0.4
+
+## Configration Breakdown
+### config.discord
+In this namespace you have to provide the important data such as the Discord Bot Token and other important information.
+#### discord.token
+`discord.token` only takes the Discord Bot Token, if you use something else YAP won't load and will cause errors.
+#### discord.prefixes
+`discord.prefixes` takes a list of Strings and those will be used as the prefixes for Discord commands. If none are given the default prefix will be `!`
+
+### config.modules
+In this namespace we change the configs of the modules within YAP. 
+#### modules.advancements
+#### modules.connections
+#### modules.cross-chat
+
+## Default Configuration
+
+``` yaml  
 config:
 
   # These settings are really important to make this plugin actually do something.
@@ -71,5 +98,4 @@ config:
         # This works only if methid is set to 'webhook'
         webhooks:
           - ''
-
 ```

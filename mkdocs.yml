@@ -6,14 +6,15 @@ nav:
   - Home: index.md
   - Setup: 
     - Dependencies: setup#dependencies
-    - Configuration: setup#configuration
+    - Configration Breakdown: setup#configration-breakdown
+    - Default Configuration: setup#default-configuration
   - Modules:
     - Advancements: modules#advancements
     - Connections: modules#connections
     - Cross-chat: modules#cross-chat
   - Contribution:
-    - Intro: contribution#intro
-    - Explanation: contribution#explanation
+    - Plugin: contribution#plugin
+    - Documentation: contribution#documentation
 
 theme:
   name: 'material'
@@ -21,8 +22,8 @@ theme:
   font:
     text: Ubuntu
   palette:
-    primary: 'pink'
-    accent: 'light pink'
+    primary: 'teal'
+    accent: 'cyan'
 
 markdown_extensions:
   - codehilite

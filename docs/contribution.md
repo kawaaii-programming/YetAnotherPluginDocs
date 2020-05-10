@@ -1,3 +1,3 @@
-## Intro
+## Plugin
 
-## Explanation
+## Documentation
