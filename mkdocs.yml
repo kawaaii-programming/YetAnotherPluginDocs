@@ -1,4 +1,7 @@
 site_name: YAP Documentation
+repo_url: https://github.com/kawaaii-programming/YetAnotherPluginDocs
+repo_name: YetAnotherPluginDocs
+
 nav:
   - Home: index.md
   - Setup: 
@@ -24,6 +27,7 @@ theme:
 markdown_extensions:
   - codehilite
   - meta
+  - admonition
 
 extra_css:
   - stylesheets/dark_theme.css

@@ -1,8 +1,6 @@
 ---
 title: Lorem ipsum dolor sit amet
 description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
-path: path/to/file
-source: file.js
 hero: Set heroes with metadata
 ---
 
